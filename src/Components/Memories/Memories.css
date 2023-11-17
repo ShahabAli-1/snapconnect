@@ -1,0 +1,41 @@
+.memories {
+  position: relative;
+  height: 400px;
+  width: 278px;
+}
+
+.memories__photos {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: center;
+  overflow: scroll;
+}
+
+.memories__photos::-webkit-scrollbar {
+  display: none;
+}
+
+.memories__photos > img {
+  width: 272px;
+  object-fit: contain;
+  border: 3px solid white;
+  transition: 0.2s linear transform;
+}
+.memories__photos > img:hover {
+  transform: scale(1.1);
+}
+
+.memories__backButton {
+  position: absolute;
+  background-color: white;
+  border-radius: 200px;
+  color: gray;
+  font-size: 40px !important;
+  cursor: pointer;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
