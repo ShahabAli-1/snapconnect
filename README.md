@@ -1,5 +1,5 @@
 ## Description
-This is a web app created using react, firebase, firebase google authentication, redux. It also uses reactwebcam library to provide its core camera functionality. The user can take pictures and save them.
+This is a web app created using react, firebase, firebase google authentication, redux. It also uses reactwebcam library to provide its core camera functionality. The user can take pictures and save them. The user can also view all their pictures which they have taken and saved over time(Memories functionality Similar to snapchat).
 
 Frontend has been created with react with the help of other libraries like Matertial-ui etc.
 
